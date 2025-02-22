@@ -1,11 +1,19 @@
 //  DATATYPES
-/**
+
+/* PRIMITIVE DATATYPES -
  * NUMBER
  * STRING
+ * BIGINT
  * BOOLEAN
  * NULL => Standalone value 
  * UNDEFINED
  * SYMBOL => Unique
+ */
+
+/* NON PRIMITIVE :-
+ * ARRAY
+ * OBJECTS
+ * FUNCTIONS
  */
 
 console.log(typeof NULL) //undefined
@@ -24,8 +32,7 @@ console.log(typeof(num)); //number
 a = "69A"
 let num2 = Number(a)
 console.log(num2); //Nan
-console.log(typeof(num2)) //number !! Some errors in js as no number
-
+console.log(typeof(num2)) //number !! Some inbuilt errors in js as no number
 
 /**CONVERSION
  * ""=>FALSE
@@ -33,3 +40,11 @@ console.log(typeof(num2)) //number !! Some errors in js as no number
  * 0 -> TRUE
  * 1 => FALSE 
  * */
+
+//-------------------------
+
+//SYMBOL => Uniqueness
+const id = Symbol("123")
+const id2 = Symbol("123")
+
+console.log(id === id2); //false despite being same values

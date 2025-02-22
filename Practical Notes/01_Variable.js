@@ -3,12 +3,12 @@
 const accountId = 69
 let accountEmail = "ayushpoddar1603@gmail.com"
 var accountPassword = "12345"
-accountCity = "New Delhi"
+accountCity = "New Delhi" //empty
 
 // Rather than printing everything one by one
 console.table([accountId, accountEmail, accountPassword, accountCity])
 
-// accountId = 5 //Not allowed
+// accountId = 5 //Not allowed changes in constants
 accountEmail = "aditiYadav@gmail.com"
 accountPassword = "98765"
 accountCity = "Delhi"
