@@ -2,8 +2,8 @@
 
 /* PRIMITIVE DATATYPES -
  * NUMBER
- * STRING
  * BIGINT
+ * STRING
  * BOOLEAN
  * NULL => Standalone value 
  * UNDEFINED
@@ -15,9 +15,6 @@
  * OBJECTS
  * FUNCTIONS
  */
-
-console.log(typeof NULL) //undefined
-console.log(typeof undefined) //undefined
 
 //------------CONVERSIONS---------------
 
@@ -41,6 +38,9 @@ console.log(typeof(num2)) //number !! Some inbuilt errors in js as no number
  * 1 => FALSE 
  * */
 
+//-------------------------
+console.log(typeof NULL) //undefined
+console.log(typeof undefined) //undefined
 //-------------------------
 
 //SYMBOL => Uniqueness

@@ -7,7 +7,9 @@ console.log("1"+"2"+3); //123
 console.log(1+"2"+"3"); //123
 
 console.log("1"+"2"+"3"); //123
- 
+
+// When adding a number & a string, Js will treat number as string.
+
 //--------------------------------
 
 console.log("2">1); //true
