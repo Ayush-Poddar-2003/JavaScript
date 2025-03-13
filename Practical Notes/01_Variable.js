@@ -1,8 +1,8 @@
 // VARIABLES
 
 /*
-* The var keyword was used from 1995 to 2015.
-* The let and const keywords were added in 2015. */
+* The var keyword was used from 1995 to 2015(ES5).
+* The let and const keywords were added in 2015(ES6). */
 
 const accountId = 69
 let accountEmail = "ayushpoddar1603@gmail.com"
@@ -35,7 +35,7 @@ Var is not prefferd as it has scope issue*/
 
 /*----------------------------*/
 
-// With let you can not do this:
+// With let you cannot do this:
 let x = "John Doe";
 let x = 0;
 //but with var can 

@@ -9,6 +9,8 @@ b = "Aditi"
 console.log(a); //No changes in a if any made in b
 console.log(b); 
 
+//------------------------------------
+
  /* 
  * HEAP
  * Used in Non Primitive DT

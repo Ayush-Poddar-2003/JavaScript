@@ -1,6 +1,6 @@
 // Constructor makes singleton object
 
-//Other Method
+// Other Method
 // Using object literals
 
 const jUser = {
