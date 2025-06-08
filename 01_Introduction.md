@@ -15,7 +15,8 @@ World can't be seen without Js
 
 ---
 ### WHAT IS JS?
-Client side Scripting Language, Adds functionality to website
+Client side Scripting Language,  
+A scripting language is a type of programming language used to automate tasks that could alternatively be done manually by a user or system administrator. It's often used for interpreted execution rather than being compiled into machine code.
 
 
 ---
